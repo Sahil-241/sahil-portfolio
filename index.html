@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Your Name | Portfolio</title>
+    <title>Sahil | Portfolio</title>
     <link rel="stylesheet" href="style.css">
     <!-- Google Fonts for premium look -->
     <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;600;800&display=swap" rel="stylesheet">
@@ -16,22 +16,23 @@
         <nav>
             <a href="#about">About</a>
             <a href="#skills">Skills</a>
-            <a href="#credentials">Credentials</a>
             <a href="#works">Works</a>
         </nav>
         <a href="mailto:your-email@gmail.com" class="cta-btn">Let's Talk</a>
     </header>
 
     <!-- HERO SECTION -->
-    <section class="hero" id="home">
+    <section class="hero" id="about">
         <div class="hero-text">
-            <span class="tagline">PROGRAMMING • CYBERSECURITY • WEB DEVELOPMENT</span>
-            <h1>Your Name.</h1>
-            <p>Building secure, scalable systems and crafting clean user interfaces with modern technologies.</p>
-            <a href="./assets/resume.pdf" class="resume-btn" download>DOWNLOAD RESUME 🔒</a>
+            <span class="tagline">PROGRAMMING • CYBERSECURITY • DATA ANALYTICS • WEB DEVELOPMENT</span>
+            <h1>Sahil.</h1>
+            <p>Building secure software, extracting insights from data, and crafting clean user interfaces with modern tech stacks.</p>
+            <!-- RESUME DOWNLOAD LINK -->
+            <a href="resume.pdf" class="resume-btn" download>DOWNLOAD RESUME 🔒</a>
         </div>
         <div class="hero-image">
-            <img src="./Images/your-photo.png" alt="Your Portrait">
+            <!-- AAPKI PHOTO (Apni photo ka sahi naam yahan daalna, jaise sahil.png) -->
+            <img src="sahil.png" alt="Sahil's Portrait" onerror="this.src='https://via.placeholder.com/350x450/111/fff?text=Sahil'">
         </div>
     </section>
 
@@ -42,7 +43,14 @@
             <div class="skill-card">
                 <h3>Programming</h3>
                 <div class="tags">
-                    <span>C</span> <span>C++</span> <span>Python</span> <span>SQL</span>
+                    <span>C</span> <span>C++</span> <span>Python</span>
+                </div>
+            </div>
+            <!-- DATA ANALYTICS SECTION ADDED -->
+            <div class="skill-card">
+                <h3>Data Analytics</h3>
+                <div class="tags">
+                    <span>SQL</span> <span>Data Extraction</span> <span>Python Analytics</span>
                 </div>
             </div>
             <div class="skill-card">
@@ -64,21 +72,21 @@
     <section class="works-section" id="works">
         <h2>Featured <span>Works</span></h2>
         
-        <!-- Project 1 -->
+        <!-- Project 1 (FIXED 404 LINK) -->
         <div class="project-card">
             <div class="project-info">
                 <span class="proj-num">01</span>
                 <h3>Social Media UI Clones Lab</h3>
                 <p>A comprehensive collection of pixel-perfect login page replicas of major platforms including Instagram, Facebook, Twitter, and WhatsApp Web using HTML & CSS.</p>
-                <div class="proj-tags"><span>HTML5</span> <span>CSS3</span> <span>Responsive</span></div>
-                <a href="https://your-username.github.io/Social-Media-UI-Clones/" target="_blank" class="view-btn">Live Project ↗</a>
+                <div class="proj-tags"><span>HTML5</span> <span>CSS3</span> <span>Responsive Design</span></div>
+                <!-- FIXED ACCORDING TO IMAGE 3 -->
+                <a href="https://Sahil-241.github.io/Social-Media-UI-Clones/" target="_blank" class="view-btn">Live Project ↗</a>
             </div>
             <div class="project-img">
-                <img src="./Images/instagram.png" alt="Project Preview">
+                <!-- PROJECT PREVIEW IMAGE -->
+                <img src="clones-preview.png" alt="Project Preview" onerror="this.src='https://via.placeholder.com/450x250/111/fff?text=UI+Clones+Preview'">
             </div>
         </div>
-
-        <!-- Project 2 (Add more here) -->
     </section>
 
 </body>
