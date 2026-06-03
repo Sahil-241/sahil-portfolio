@@ -249,3 +249,14 @@ body {
     grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
     gap: 20px;
 }
+
+.project-card {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #0d0d0d;
+    border: 1px solid #1a1a1a;
+    border-radius: 16px;
+    padding: 30px;
+    margin-bottom: 40px; /* Do projects ke beech mein badhiya gap ke liye */
+}
