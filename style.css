@@ -260,3 +260,24 @@ body {
     padding: 30px;
     margin-bottom: 40px; /* Do projects ke beech mein badhiya gap ke liye */
 }
+
+
+/* Mobile responsive adjustments */
+@media (max-width: 768px) {
+    .hero {
+        flex-direction: column; /* Image ko text ke niche le aayega */
+        text-align: center;
+    }
+
+    h1 {
+        font-size: 3rem !important; /* Mobile par naam chhota ho jayega */
+    }
+
+    .hero-text {
+        padding: 20px;
+    }
+
+    .navbar {
+        padding: 10px 20px;
+    }
+}
