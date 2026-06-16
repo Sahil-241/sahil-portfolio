@@ -281,3 +281,55 @@ body {
         padding: 10px 20px;
     }
 }
+
+/* --- MOBILE RESPONSIVE FIXES (Copy this to the end of your style.css) --- */
+
+@media (max-width: 768px) {
+    /* Navbar ko mobile ke liye adjust karna */
+    .navbar {
+        padding: 15px 5%;
+        justify-content: center;
+        flex-direction: column;
+    }
+    
+    .navbar nav {
+        margin-top: 10px;
+    }
+
+    /* Hero section: Text aur Image ko stack karna */
+    .hero {
+        padding-top: 120px;
+        flex-direction: column-reverse;
+        text-align: center;
+    }
+
+    .hero-text {
+        max-width: 100%;
+        margin-top: 20px;
+    }
+
+    .hero-text h1 {
+        font-size: 2.5rem !important; /* Naam ko screen mein fit karne ke liye */
+    }
+
+    /* Project Cards: Image ko text ke upar stack karna */
+    .project-card {
+        flex-direction: column;
+        padding: 20px;
+        text-align: center;
+    }
+
+    .project-info {
+        max-width: 100%;
+    }
+
+    .project-img img {
+        margin-top: 20px;
+        max-width: 100%; /* Image ko screen se bahar jaane se rokne ke liye */
+    }
+
+    /* Skills: Ek line mein ek card */
+    .skills-grid {
+        grid-template-columns: 1fr;
+    }
+}
