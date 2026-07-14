@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Sahil Kumar | Portfolio</title>
+    <title>Sahil Kumar | SOC Analyst Portfolio</title>
     <link rel="stylesheet" href="style.css">
     <!-- Google Fonts for premium look -->
     <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;600;800&display=swap" rel="stylesheet">
@@ -24,9 +24,9 @@
     <!-- HERO SECTION -->
     <section class="hero" id="about">
         <div class="hero-text">
-            <span class="tagline">PROGRAMMING • CYBERSECURITY • DATA ANALYTICS • WEB DEVELOPMENT</span>
-<h1 style="word-wrap: break-word; font-size: 4rem;">Sahil Kumar</h1>
-            <p>Building secure systems, analyzing enterprise data to extract insights, and crafting clean user interfaces with modern technologies.</p>
+            <span class="tagline">CYBERSECURITY • SOC OPERATIONS • THREAT DETECTION • INCIDENT RESPONSE</span>
+            <h1 style="word-wrap: break-word; font-size: 4rem;">Sahil Kumar</h1>
+            <p>Proactively monitoring endpoints, analyzing security logs, detecting threats, and defending enterprise infrastructure using SIEM platforms and network analytics.</p>
             <!-- RESUME DOWNLOAD LINK -->
             <a href="Resume.pdf" class="resume-btn" download>DOWNLOAD RESUME 🔒</a>
         </div>
@@ -39,78 +39,77 @@
     <section class="skills-section" id="skills">
         <h2>Everything I bring to the <span>Table</span></h2>
         <div class="skills-grid">
+            
+            <!-- CYBERSECURITY & SOC (PRIMARY FOCUS) -->
             <div class="skill-card">
-                <h3>Programming</h3>
+                <h3>Security Operations & Defense</h3>
                 <div class="tags">
-                    <span>C</span> <span>C++</span> <span>Python</span>
+                    <span>SIEM (Wazuh / Elastic)</span> <span>Wireshark (Packet Analysis)</span> <span>Log Analysis (Syslog/Events)</span> <span>Nmap</span> <span>Burp Suite</span> <span>Network Security</span> <span>Kali & Parrot OS</span>
                 </div>
             </div>
-            <!-- FIXED DATA ANALYTICS SECTION -->
+
+            <!-- SECURITY AUTOMATION & LOG ANALYSIS -->
             <div class="skill-card">
-                <h3>Data Analytics</h3>
+                <h3>Automation & Scripting</h3>
                 <div class="tags">
-                    <span>SQL</span> <span>Advanced Excel</span> <span>Power BI</span> <span>Data Extraction</span>
+                    <span>Python (Security Scripts)</span> <span>SQL (Log Querying)</span> <span>Bash Scripting</span> <span>Advanced Excel</span>
                 </div>
             </div>
+
+            <!-- THREAT INTELLIGENCE & FRAMEWORKS -->
             <div class="skill-card">
-                <h3>Web Dev</h3>
+                <h3>Frameworks & Methodology</h3>
                 <div class="tags">
-                    <span>HTML5</span> <span>CSS3</span> <span>UI/UX Design</span>
+                    <span>MITRE ATT&CK</span> <span>Incident Response</span> <span>VAPT Practice</span> <span>Phishing Analysis</span> <span>IoC Tracking</span>
                 </div>
             </div>
-            <!-- ENHANCED CYBERSECURITY SECTION -->
-            <div class="skill-card">
-                <h3>Cyber Security</h3>
-                <div class="tags">
-                    <span>Kali Linux</span> <span>Parrot OS</span> <span>Nmap</span> <span>Wireshark</span> <span>Metasploit</span> <span>Burp Suite</span> <span>Network Security</span>
-                </div>
-            </div>
+
         </div>
     </section>
 
-    <!-- PROJECTS SECTION (3 PROJECTS SHOWCASE) -->
+    <!-- PROJECTS SECTION (3 SOC FOCUSED PROJECTS) -->
     <section class="works-section" id="works">
         <h2>Featured <span>Works</span></h2>
         
-        <!-- Project 1: Web Dev -->
+        <!-- Project 1: SIEM & Threat Detection -->
         <div class="project-card">
             <div class="project-info">
                 <span class="proj-num">01</span>
-                <h3>Social Media UI Clones Lab</h3>
-                <p>A comprehensive collection of pixel-perfect login page replicas of major platforms including Instagram, Facebook, Twitter, and WhatsApp Web using HTML & CSS.</p>
-                <div class="proj-tags"><span>HTML5</span> <span>CSS3</span> <span>Responsive Design</span></div>
-                <a href="https://sahil-241.github.io/Social-Media-UI-Clones/" target="_blank" class="view-btn">Live Project ↗</a>
+                <h3>Threat Detection & Active Response SIEM Lab</h3>
+                <p>Deployed an enterprise-grade SIEM environment using Wazuh on VirtualBox. Configured active response rules to dynamically detect and block SSH/RDP brute-force attacks on Windows and Linux endpoints while mapping incidents to the MITRE ATT&CK framework.</p>
+                <div class="proj-tags"><span>Wazuh SIEM</span> <span>Active Response</span> <span>MITRE ATT&CK</span> <span>VirtualBox</span></div>
+                <a href="https://github.com/sahil-241" target="_blank" class="view-btn">View Lab Repository ↗</a>
             </div>
             <div class="project-img">
-                <img src="clones-preview.png" alt="Project Preview" onerror="this.src='https://via.placeholder.com/450x250/111/fff?text=UI+Clones+Preview'">
+                <img src="cyber-preview.png" alt="SIEM Detection Lab" onerror="this.src='https://via.placeholder.com/450x250/111/fff?text=SIEM+Lab+Preview'">
             </div>
         </div>
 
-        <!-- Project 2: Cybersecurity (NEW) -->
+        <!-- Project 2: Network Forensics & Wireshark -->
         <div class="project-card">
             <div class="project-info">
                 <span class="proj-num">02</span>
-                <h3>Multi-Machine Ethical Hacking Lab</h3>
-                <p>Designed and deployed a virtualized network environment using VirtualBox comprising Kali Linux, Parrot OS, and vulnerable endpoints like Metasploitable for VAPT practice, network mapping, and packet analysis.</p>
-                <div class="proj-tags"><span>Nmap</span> <span>Wireshark</span> <span>Metasploit</span> <span>VAPT</span></div>
-                <a href="https://github.com/sahil-241" target="_blank" class="view-btn">View Repository ↗</a>
+                <h3>Malware Analysis & Traffic Investigation (Wireshark)</h3>
+                <p>Investigated malicious PCAP captures using Wireshark to isolate Command and Control (C2) traffic, analyze suspicious HTTP/DNS requests, extract malicious payloads, and document key Indicators of Compromise (IoCs).</p>
+                <div class="proj-tags"><span>Wireshark</span> <span>Packet Analysis</span> <span>IoC Extraction</span> <span>Network Security</span></div>
+                <a href="https://github.com/sahil-241" target="_blank" class="view-btn">View Investigation ↗</a>
             </div>
             <div class="project-img">
-                <img src="cyber-preview.png" alt="Cyber Lab Preview" onerror="this.src='https://via.placeholder.com/450x250/111/fff?text=Cyber+Security+Lab+Preview'">
+                <img src="cyber-preview.png" alt="Wireshark Analysis" onerror="this.src='https://via.placeholder.com/450x250/111/fff?text=Packet+Analysis+Lab'">
             </div>
         </div>
 
-        <!-- Project 3: Data Analytics (NEW) -->
+        <!-- Project 3: Python Security Log Parser -->
         <div class="project-card">
             <div class="project-info">
                 <span class="proj-num">03</span>
-                <h3>Data Extraction & Interactive Dashboard</h3>
-                <p>Extracted raw datasets using SQL queries and engineered interactive Power BI dashboards and Advanced Excel trackers to clean data, identify trends, and analyze operational performance metrics.</p>
-                <div class="proj-tags"><span>SQL</span> <span>Power BI</span> <span>Advanced Excel</span> <span>Data Visualization</span></div>
-                <a href="https://github.com/sahil-241" target="_blank" class="view-btn">View Dashboard Project ↗</a>
+                <h3>Automated Security Event & Log Parser</h3>
+                <p>Engineered Python and SQL scripts to extract, filter, and parse Windows Security Event logs and Linux auth.log files to automatically flag unauthorized privileges, brute-force attempts, and anomalous activity.</p>
+                <div class="proj-tags"><span>Python</span> <span>SQL</span> <span>Log Analysis</span> <span>Security Automation</span></div>
+                <a href="https://github.com/sahil-241" target="_blank" class="view-btn">View Script Repo ↗</a>
             </div>
             <div class="project-img">
-                <img src="analytics-preview.png" alt="Analytics Preview" onerror="this.src='https://via.placeholder.com/450x250/111/fff?text=Data+Analytics+Dashboard'">
+                <img src="analytics-preview.png" alt="Log Parser Script" onerror="this.src='https://via.placeholder.com/450x250/111/fff?text=Log+Parser+Preview'">
             </div>
         </div>
 
