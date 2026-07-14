@@ -1,21 +1,36 @@
-# Sahil Kumar | Cybersecurity & SOC Operations
+# Sahil Kumar | Cybersecurity & SOC Operations Analyst
 
-Welcome to my cybersecurity portfolio repository. I specialize in Blue Teaming, Threat Detection, SIEM Administration, and Security Automation.
+MBA (IT) graduate with hands-on experience in Security Operations (SOC), threat detection, log analysis, and vulnerability management.
 
-🌐 **Live Portfolio:** [sahil-241.github.io/sahil-portfolio/](https://sahil-241.github.io/sahil-portfolio/)
-
----
-
-## 🛠️ Core Competencies & Skills
-- **SIEM & Monitoring:** Wazuh SIEM/XDR, Active Response, Event Monitoring
-- **Network Forensics:** Wireshark, Packet Analysis (PCAP), IoC Extraction, Nmap
-- **Log Analytics:** Windows Event Logs, Linux `auth.log`, Syslog Analysis
-- **Scripting & Automation:** Python, SQL, Bash
-- **Security Frameworks:** MITRE ATT&CK, Incident Response Lifecycle
+🌐 **Live Portfolio:** [sahil-241.github.io/sahil-portfolio/](https://sahil-241.github.io/sahil-portfolio/)  
+📜 **Google Data Analytics Certification ID:** `184429747`
 
 ---
 
-## 📂 Key Projects
-1. **Threat Detection & Active Response SIEM Lab:** Virtualized enterprise network with Wazuh SIEM deployed via VirtualBox.
-2. **Malware Traffic Investigation:** Deep-packet analysis in Wireshark identifying C2 traffic and extracting IoCs.
-3. **Automated Security Log Parser:** Custom Python utility for automated threat detection from raw system logs.
+## 💼 Work Experience
+* **Cybersecurity Analyst** | *IICEA PVT. LTD.* (July 2025 - April 2026)
+  - Conducted vulnerability assessments (VAPT) and security audits for web applications using Nmap and Burp Suite.
+  - Monitored server infrastructure, analyzed system logs (`journalctl`), and assisted in incident response & malware analysis.
+
+* **Data Analyst / Freelancer** | *Vedanshi Pixel India* (Nov 2025 - May 2026)
+  - Audited datasets using SQL to ensure 100% data integrity and standardized documentation for audit readiness.
+
+---
+
+## 🛠️ Skills & Frameworks
+- **SOC Operations:** Threat Detection, Incident Response, Log Analysis (`Syslog`, `Windows Event Logs`, `journalctl`)
+- **Network Security & Analysis:** Wireshark (Packet Analysis & IoC Extraction), Nmap, Burp Suite, Kali Linux
+- **Automation & Scripting:** Python (Security Scripts), SQL, Bash
+- **Methodologies & Concepts:** MITRE ATT&CK Framework, Cyber Kill Chain, Threat Intelligence
+- **Hardware Security:** DigiSpark (ATtiny85), Arduino HID protocol analysis
+
+---
+
+## 📂 Featured Security Repositories & Labs
+1. [Cyber-Toolbox-50](https://github.com/Sahil-241/Cyber-Toolbox-50) - Custom Python security automation scripts for log auditing and network reconnaissance.
+2. **Threat Detection SIEM Lab** - VirtualBox environment monitored via Wazuh SIEM with Active Response rules.
+3. **Malware Traffic Investigation** - Deep packet analysis using Wireshark to isolate C2 traffic and extract IoCs.
+
+---
+
+📬 **Contact:** skumar.2001.05@gmail.com | **Location:** Bilaspur, Himachal Pradesh
